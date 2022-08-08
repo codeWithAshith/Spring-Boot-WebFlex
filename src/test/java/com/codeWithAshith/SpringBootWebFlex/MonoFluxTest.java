@@ -20,6 +20,7 @@ public class MonoFluxTest {
         monoString.subscribe(System.out::println,(e)->System.out.println(e.getMessage()));
     }
 
+
     @Test
     public void testFlux(){
 
